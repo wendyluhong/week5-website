@@ -31,31 +31,116 @@ body {
     top: 0;
     width: 100%;
     font-weight: 900;
+    height: 140px;
+    z-index: 999;
+ 
   }
+
   .navigation li {
     display: inline-block;
-  }
+    color: #4A4A4A;
+    }
+  
+
+  
   .navigation a {
-    display: block;
+    display: flex;
     color: #4A4A4A;
     padding: 30px 50px;
+    margin: 15px 30px 0px 30px;
+    text-decoration: none;
   }
+  .navigation a:hover{
+    background: white;
+  }
+
+
+
+.header-home{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 1600px;
+  overflow: scroll;
+  text-align:center;
+ 
+  background-image: url(resources/floating.png);
+  background: cover;
+  margin-top:140px;
+}
 
 
   .header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 510px;
-    
+    height: 1600px;
+    overflow: scroll;
     text-align:center;
     padding: 150px ;
-  
+    
+    
+    background-image: url(resources/dinosaur-3.png);
     background: cover;
-    background-image: url(https://purpleseamstressfabric.com/wp-content/uploads/2017/10/red-foil.jpg);
   }
+  
   h1{
+   
     color: white;
+    size: 200px;
+    border: 2px solid red;
+    margin-bottom: 800px;
+    background-color: red;
+    padding: 20px 60px;
+
+  }
+.gallery{
+  text-align: center;
+  margin-bottom: 200px;
+}
+  img{
+    height:1200px;
+    text-align:center;
+    padding:100px;
+  }
+  .w{
+    height:800px;
+    text-align:center;
+    padding:100px;
+
+  }
+  .content{
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    overflow:scroll;
+    margin: 0 auto;
+    padding-bottom:200px;
+  }
+  h2{
+    color: red;
+    margin:40px;
+    padding: 30px;
+  }
+  p {
+    color: black;
+    font-size: 16px;
+    line-height: 48px;
+    text-align:center;
+    padding: 10px 20px;
+  }
+  h3{
+    color:black;
+    text-align:center;
+    margin-top:100px;
+  }
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
   }
   
   
@@ -73,15 +158,36 @@ body {
   }
   
   .overlay{
-    background-color: black;
+    background-color:white;
     height: 100%;
     width:100%;
+
     opacity:0;
-    transition: opacity .3s ease-in;
+    transition: opacity .2s ease-in;
   }
   
   .overlay:hover{
-    opacity:.4;
+    opacity:.3;
+  }
+
+  .video{
+    margin-top:200px;
+
+    text-align: center;
+  }
+  .padding{
+    margin:50px;
+  }
+  .contact{
+    margin-top:300px;
+   
+  }
+  a{
+    text-decoration: none;
+  }
+  h3{
+   
+    color: black;
   }
   
   /*.project h3{
@@ -93,76 +199,48 @@ body {
     transform: translateY(0);
   }
    */
+
   .project-1{
    
-    background-color: #00008B;
+    background-image:url(resources/dinosaur.png);
    
   }
   .project-2{
    
-    background-color: #4682B4;
+    background-image:url(resources/dinosaur-3.png);
    
   }
   .project-3{
    
-    background-color: #B0C4DE;
+    background-image:url(resources/fishtank.png);
    
   }
   .project-4{
    
-    background-color: #87CEEB;
+    background-image:url(resources/for\ the\ love\ of\ eternity.png);
    
   }
   .project-5{
    
-    background-color: #1E90FF;
+    background-image:url(resources/floating.png);
   
   }
   .project-6{
    
-    background-color: #E6E6FA;
+    background-image:url(resources/alien-4.png);
    
   }
   .project-7{
    
-    background-color: #D8BFD8;
+    background-image:url(resources/diamondfrature-6.png);
    
   }
   .project-8{
    
-    background-color: #DDA0DD;
+    background-image:url(resources/black-diamond.png);
    
   }
-  .project-9{
-   
-    background-color: #EE82EE;
-   
-  }
-  .project-10{
-   
-    background-color: #DA70D6;
   
-  }
-  .project-11{
-   
-    background-color: #EE82EE;
-   
-  }
-  .project-12{
-   
-    background-color: #DA70D6;
-  
-  }
-  .project-13{
-   
-    background-color: #EE82EE;
-   
-  }
-  .project-14{
-   
-    background-color: #DA70D6;
-  
-  }
   .big{
     
     background-color: black;
